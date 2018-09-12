@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3234ccae-564b-484b-b5df-42f4a52d0cf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Model/__init__.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Controller/requestTest.py" afterPath="$PROJECT_DIR$/Controller/requestTest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
