@@ -2,6 +2,9 @@ import requests
 import pickle
 from newsapi import NewsApiClient
 import json
+import os
+from os.path import join, dirname
+from dotenv import load_dotenv
 
 
 def all_senators():
@@ -17,27 +20,37 @@ def all_senators():
 
 
 def find_news_by_topic(search_term):
-    newsarticle = []
+    news_article = []
     api = NewsApiClient(api_key='2126949bf7be437480eaf1f2dcf0ce51')
     articles = api.get_everything(q=search_term)
     for article in articles['articles']:
         author = article['author']
         description = article['description']
         title = article['title']
-        newsarticle.append(author)
-        newsarticle.append(description)
-        newsarticle.append(title)
-    outfile = open('NewsArticle', 'wb')
-    pickle.dump(newsarticle, outfile)
+        news_article.append(author)
+        news_article.append(description)
+        news_article.append(title)
+    outfile = open('../PickleFile/NewsArticle', 'wb')
+    pickle.dump(news_article, outfile)
     outfile.close()
 
 
 def un_pickle_file():
-    infile = open('NewsArticle', 'rb')
+    infile = open('../PickleFile/NewsArticle', 'rb')
     new = pickle.load(infile)
     infile.close()
     print(new)
 
 
-find_news_by_topic(search_term='Trump')
-un_pickle_file()
+def enviro_variable():
+    dotenv_path = join(dirname(__file__), '../apikeys.env')
+    load_dotenv(dotenv_path)
+
+    twitter = os.getenv('TWITTERKEY')
+
+    print(twitter)
+
+
+enviro_variable()
+# find_news_by_topic(search_term='Trump')
+# un_pickle_file()
