@@ -20,8 +20,11 @@ def all_senators():
 
 
 def find_news_by_topic(search_term):
+    dotenv_path = join(dirname(__file__), '../apikeys.env')
+    newsKey = os.getenv('NEWS_KEY')
+
     news_article = []
-    api = NewsApiClient(api_key='2126949bf7be437480eaf1f2dcf0ce51')
+    api = NewsApiClient(api_key=newsKey)
     articles = api.get_everything(q=search_term)
     for article in articles['articles']:
         author = article['author']
@@ -46,11 +49,11 @@ def enviro_variable():
     dotenv_path = join(dirname(__file__), '../apikeys.env')
     load_dotenv(dotenv_path)
 
-    twitter = os.getenv('TWITTERKEY')
+    twitter = os.getenv('NEWS_KEY')
 
     print(twitter)
 
 
 enviro_variable()
-# find_news_by_topic(search_term='Trump')
-# un_pickle_file()
+find_news_by_topic(search_term='Trump')
+un_pickle_file()
