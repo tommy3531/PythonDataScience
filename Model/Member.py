@@ -1,8 +1,11 @@
+import Results
+
+
 class Member:
 
     def __init__(self):
         self.copyright = ""
-        self.member_root = []
+        self.member_root = [Results]
         self.member_basic_info = []
         self.member_id = ""
         self.member_title = ""
@@ -31,6 +34,9 @@ class Member:
 
     def member_basic_information(self, member_basic_info):
         self.member_basic_info.append(member_basic_info)
+
+    def full_name(self):
+        print("{}{}".format(self.member_first_name, self.member_last_name))
 
 
 
