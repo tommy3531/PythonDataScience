@@ -5,7 +5,6 @@ import json
 import os
 from os.path import join, dirname
 from dotenv import load_dotenv
-from jsontraverse.parser import JsonTraverseParser
 from Controller.Propublica import all_senators, get_senator_full_name, get_specific_member, get_member_roles, get_member_committees, get_member_sub_committees
 
 
@@ -51,14 +50,21 @@ def enviro_variable():
 
 results_data = get_specific_member('K000388')
 for result in results_data:
-    print(result)
+    print(result['first_name'])
+    print(result['last_name'])
+    print(result['member_id'])
 member_roles = get_member_roles(results_data)
+print("\nRoles")
 for role in member_roles:
-    print(role)
+    print(role['ocd_id'])
 member_committes = get_member_committees(member_roles)
+print("\nCommittees")
 for committee in member_committes:
-    print(committee)
+    print(committee['name'])
+    print(committee['code'])
 member_subcommittees = get_member_sub_committees(member_roles)
+print("\nSubcommittees")
 for subcommittee in member_subcommittees:
-    print(subcommittee)
+    print(subcommittee['name'])
+    print(subcommittee['code'])
 
