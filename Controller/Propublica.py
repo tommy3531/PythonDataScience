@@ -44,9 +44,21 @@ def get_specific_member(member_id):
 
 
 def get_member_roles(member_results):
-
     roles = member_results[0]['roles']
     return roles
+
+
+def show_member_details(member_results):
+    for result in member_results:
+        print(result['first_name'])
+        print(result['last_name'])
+        print(result['member_id'])
+
+
+def show_member_roles(member_roles):
+    print("\nRoles")
+    for role in member_roles:
+        print(role['ocd_id'])
 
 
 def get_member_committees(member_roles):
@@ -54,6 +66,20 @@ def get_member_committees(member_roles):
     return committee
 
 
+def show_member_committees(member_committees):
+    print("\nCommittees")
+    for committee in member_committees:
+        print(committee['name'])
+        print(committee['code'])
+
+
 def get_member_sub_committees(member_roles):
     sub_committee = member_roles[0]['subcommittees']
     return sub_committee
+
+
+def show_member_sub_committees(member_subcommittees):
+    print("\nSubcommittees")
+    for subcommittee in member_subcommittees:
+        print(subcommittee['name'])
+        print(subcommittee['code'])

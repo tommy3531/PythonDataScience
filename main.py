@@ -5,7 +5,7 @@ import json
 import os
 from os.path import join, dirname
 from dotenv import load_dotenv
-from Controller.Propublica import all_senators, get_senator_full_name, get_specific_member, get_member_roles, get_member_committees, get_member_sub_committees
+from Controller.Propublica import all_senators, get_senator_full_name, get_specific_member, get_member_roles, get_member_committees, get_member_sub_committees, show_member_details, show_member_roles, show_member_committees, show_member_sub_committees
 
 
 def find_news_by_topic(search_term):
@@ -42,29 +42,20 @@ def enviro_variable():
 
     print(twitter)
 
-
-# senator_data = all_senators()
-# senator_full_name = get_senator_full_name(senator_data)
-# for i in senator_full_name:
-#     print(i)
-
+# Member Basic information
 results_data = get_specific_member('K000388')
-for result in results_data:
-    print(result['first_name'])
-    print(result['last_name'])
-    print(result['member_id'])
+show_member_details(results_data)
+
+# Member roles
 member_roles = get_member_roles(results_data)
-print("\nRoles")
-for role in member_roles:
-    print(role['ocd_id'])
-member_committes = get_member_committees(member_roles)
-print("\nCommittees")
-for committee in member_committes:
-    print(committee['name'])
-    print(committee['code'])
+show_member_roles(member_roles)
+
+# Member committees
+member_committees = get_member_committees(member_roles)
+show_member_committees(member_committees)
+
+# Member subcommittees
 member_subcommittees = get_member_sub_committees(member_roles)
-print("\nSubcommittees")
-for subcommittee in member_subcommittees:
-    print(subcommittee['name'])
-    print(subcommittee['code'])
+show_member_sub_committees(member_subcommittees)
+
 
