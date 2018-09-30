@@ -19,6 +19,17 @@ def all_senators():
     return member_data
 
 
+def show_senator(senator_data):
+    print(senator_data)
+
+
+def show_senator_full_name_with_legislator_id(senator_data):
+
+    for item in senator_data:
+        print(item['first_name'] + " " + item['last_name'])
+        print(item['id'])
+
+
 def get_senator_full_name(senator_data):
     full_name = []
     for i in senator_data:
