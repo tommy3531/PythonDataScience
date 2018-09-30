@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 
 def find_news_by_topic(search_term):
-    dotenv_path = join(dirname(__file__), '../apikeys.env')
+    # dotenv_path = join(dirname(__file__), '../apikeys.env')
     newsKey = os.getenv('NEWS_KEY')
 
     news_article = []
@@ -17,12 +17,7 @@ def find_news_by_topic(search_term):
         author = article['author']
         description = article['description']
         title = article['title']
-        news_article.append(author)
-        news_article.append(description)
-        news_article.append(title)
-    outfile = open('../PickleFile/NewsArticle', 'wb')
-    pickle.dump(news_article, outfile)
-    outfile.close()
+        print(title)
 
 
 def un_pickle_file():
@@ -35,7 +30,3 @@ def un_pickle_file():
 def enviro_variable():
     dotenv_path = join(dirname(__file__), '../apikeys.env')
     load_dotenv(dotenv_path)
-
-    twitter = os.getenv('NEWS_KEY')
-
-    print(twitter)
