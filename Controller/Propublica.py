@@ -27,7 +27,7 @@ def show_senator_full_name_with_legislator_id(senator_data):
 
     for item in senator_data:
         print(item['first_name'] + " " + item['last_name'])
-        print(item['id'])
+        print(item['id'] + "\n")
 
 
 def get_senator_full_name(senator_data):
@@ -61,15 +61,14 @@ def get_member_roles(member_results):
 
 def show_member_details(member_results):
     for result in member_results:
-        print(result['first_name'])
-        print(result['last_name'])
-        print(result['member_id'])
+        print("Fullname: " + result['first_name'] + " " + result['last_name'])
+        print("Legislator Id: " + result['member_id'] + "\n")
 
 
 def show_member_roles(member_roles):
     print("\nRoles")
     for role in member_roles:
-        print(role['ocd_id'])
+        print("OCD-ID: " + role['ocd_id'])
 
 
 def get_member_committees(member_roles):
@@ -80,8 +79,8 @@ def get_member_committees(member_roles):
 def show_member_committees(member_committees):
     print("\nCommittees")
     for committee in member_committees:
-        print(committee['name'])
-        print(committee['code'])
+        print("Committe Name: " + committee['name'])
+        print("Committe Code: " + committee['code'] + "\n")
 
 
 def get_member_sub_committees(member_roles):
@@ -92,5 +91,5 @@ def get_member_sub_committees(member_roles):
 def show_member_sub_committees(member_subcommittees):
     print("\nSubcommittees")
     for subcommittee in member_subcommittees:
-        print(subcommittee['name'])
-        print(subcommittee['code'])
+        print("Subcommittee Name: " + subcommittee['name'])
+        print("Subcommittee Code: " + subcommittee['code'] + "\n")

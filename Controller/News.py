@@ -6,18 +6,24 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 
 
-def find_news_by_topic(search_term):
-    # dotenv_path = join(dirname(__file__), '../apikeys.env')
+def get_news_articles(search_term):
+    enviro_variable()
     newsKey = os.getenv('NEWS_KEY')
 
-    news_article = []
     api = NewsApiClient(api_key=newsKey)
     articles = api.get_everything(q=search_term)
-    for article in articles['articles']:
-        author = article['author']
-        description = article['description']
-        title = article['title']
-        print(title)
+    return articles
+
+
+def show_new_articles(news_data):
+    print(news_data)
+    print(news_data['totalResults'])
+    for item in news_data['articles']:
+        print(item['author'])
+        print(item['title'])
+        print(item['url'])
+        print(item['source']['name'])
+        print("\n")
 
 
 def un_pickle_file():
