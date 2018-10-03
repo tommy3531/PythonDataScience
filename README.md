@@ -8,5 +8,9 @@
 2. JsonTraverseParser
 
 # Documentation
+1. Data.gov - https://www.data.gov/developers/apis
+2. BrightPlanet - https://brightplanet.com/data-feed-api-guide/
+3. NewsAPI -
 
 # Helpful Links
+1. Open Data - https://project-open-data.cio.gov/
