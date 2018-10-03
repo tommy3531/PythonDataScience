@@ -6,11 +6,15 @@
 # Third Party Libraries
 1. NewsAPI
 2. JsonTraverseParser
+3. tradingeconomics
 
 # Documentation
 1. Data.gov - https://www.data.gov/developers/apis
 2. BrightPlanet - https://brightplanet.com/data-feed-api-guide/
 3. NewsAPI - https://newsapi.org/docs
+4. Trading Economics - http://docs.tradingeconomics.com/#snapshots26
+5. UnData - http://data.un.org/ws/
+6. Opensecrets -
 
 # Helpful Links
 1. Open Data - https://project-open-data.cio.gov/
