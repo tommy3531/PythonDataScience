@@ -4,9 +4,12 @@
     perform calculations on the data and persent the data to the use. </p>
 
 # Third Party Libraries
-1. NewsAPI
-2. JsonTraverseParser
-3. tradingeconomics
+1. NewsAPI - get news articles
+2. JsonTraverseParser - parse json easier
+3. tradingeconomics - stock prices
+3. scrapy - creating spiders
+4. pyfolio - stock risk analysis
+5. requests - REST Calls
 
 # Documentation
 1. Data.gov - https://www.data.gov/developers/apis
@@ -15,6 +18,9 @@
 4. Trading Economics - http://docs.tradingeconomics.com/#snapshots26
 5. UnData - http://data.un.org/ws/
 6. Opensecrets - https://www.opensecrets.org/api/admin/index.php?function=user_api_list
+7. Scrapy - https://docs.scrapy.org/en/latest/
+8. pyfolio - https://quantopian.github.io/pyfolio/
+
 
 # Helpful Links
 1. Open Data - https://project-open-data.cio.gov/
