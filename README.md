@@ -14,7 +14,7 @@
 3. NewsAPI - https://newsapi.org/docs
 4. Trading Economics - http://docs.tradingeconomics.com/#snapshots26
 5. UnData - http://data.un.org/ws/
-6. Opensecrets -
+6. Opensecrets - https://www.opensecrets.org/api/admin/index.php?function=user_api_list
 
 # Helpful Links
 1. Open Data - https://project-open-data.cio.gov/
