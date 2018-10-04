@@ -6,7 +6,7 @@ from Controller.Propublica import all_senators, get_senator_full_name, get_speci
 
 from Controller.News import get_news_articles, enviro_variable, show_new_articles
 
-from Controller.Menu import get_legislator_id
+from Controller.Menu import get_crp_id
 from Controller.CKan import get_package_list, get_group_list, query_packages_and_resources, get_tags
 from Controller.OpenSecrets import get_top_contributors_for_rep
 # CKAN Controller
@@ -21,7 +21,7 @@ senate_data = all_senators()
 show_senator_full_name_with_crp_id(senate_data)
 #
 # # Get legislator ID
-crp_id = get_legislator_id()
+crp_id = get_crp_id()
 #
 # # Member Basic information
 # results_data = get_specific_member(leg_id)
