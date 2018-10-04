@@ -1,3 +1,3 @@
 def get_legislator_id():
-    leg_id = input("Please enter Legislator ID: ")
-    return leg_id
+    crp_id = input("Please enter Open Secrets ID: ")
+    return crp_id

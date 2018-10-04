@@ -2,118 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3234ccae-564b-484b-b5df-42f4a52d0cf5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Controller/TradingEconomics.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataScience.iml" afterPath="$PROJECT_DIR$/.idea/DataScience.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/RECORD" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit-1.0.14.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit-1.0.14.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit-1.0.14.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit-1.0.14.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit-1.0.14.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit-1.0.14.dist-info/metadata.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit-1.0.14.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/application.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/auto_suggest.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/auto_suggest.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/buffer.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/buffer.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/buffer_mapping.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/cache.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/cache.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/clipboard/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/clipboard/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/clipboard/base.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/clipboard/base.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/clipboard/in_memory.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/clipboard/in_memory.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/clipboard/pyperclip.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/clipboard/pyperclip.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/completion.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/completers/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/completers/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/completers/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/completers/filesystem.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/completers/system.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/completers/system.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/compiler.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/compiler.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/completion.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/completion.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/lexer.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/lexer.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/regex_parser.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/regex_parser.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/validation.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/regular_languages/validation.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/application.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/log.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/log.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/protocol.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/protocol.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/server.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/telnet/server.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/validators/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/contrib/validators/base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/document.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/document.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/enums.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/enums.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/asyncio_base.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/asyncio_posix.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/asyncio_posix.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/asyncio_win32.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/asyncio_win32.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/base.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/base.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/callbacks.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/inputhook.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/inputhook.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/posix.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/posix.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/posix_utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/select.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/select.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/utils.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/utils.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/win32.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/eventloop/win32.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/base.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/base.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/cli.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/cli.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/types.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/utils.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/filters/utils.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/history.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/history.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/input.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/interface.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/basic.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/basic.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/completion.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/completion.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/emacs.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/emacs.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/named_commands.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/named_commands.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/scroll.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/scroll.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/vi.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/bindings/vi.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/defaults.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/defaults.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/digraphs.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/digraphs.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/input_processor.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/manager.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/registry.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/vi_state.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/key_binding/vi_state.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/keys.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/keys.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/containers.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/containers.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/controls.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/controls.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/dimension.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/dimension.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/lexers.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/margins.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/margins.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/menus.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/menus.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/mouse_handlers.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/mouse_handlers.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/processors.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/processors.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/prompt.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/screen.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/screen.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/toolbars.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/utils.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/layout/utils.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/mouse_events.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/mouse_events.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/output.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/reactive.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/renderer.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/renderer.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/search_state.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/selection.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/selection.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/shortcuts.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/base.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/base.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/defaults.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/defaults.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/from_dict.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/from_pygments.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/styles/utils.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/terminal/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/terminal/conemu_output.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/terminal/vt100_input.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/terminal/vt100_output.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/terminal/win32_input.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/terminal/win32_output.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/token.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/token.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/utils.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/utils.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/validation.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/prompt_toolkit/validation.py" />
-      <change beforePath="$PROJECT_DIR$/pip-selfcheck.json" afterPath="$PROJECT_DIR$/pip-selfcheck.json" />
+      <change beforePath="$PROJECT_DIR$/Controller/Menu.py" afterPath="$PROJECT_DIR$/Controller/Menu.py" />
+      <change beforePath="$PROJECT_DIR$/Controller/OpenSecrets.py" afterPath="$PROJECT_DIR$/Controller/OpenSecrets.py" />
+      <change beforePath="$PROJECT_DIR$/Controller/Propublica.py" afterPath="$PROJECT_DIR$/Controller/Propublica.py" />
+      <change beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DataScience$main.coverage" NAME="main Coverage Results" MODIFIED="1538608355381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataScience$main.coverage" NAME="main Coverage Results" MODIFIED="1538613397040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataScience$requestTest.coverage" NAME="main Coverage Results" MODIFIED="1538183205099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataScience$test.coverage" NAME="requestTest Coverage Results" MODIFIED="1536891819429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Controller" />
   </component>
@@ -132,22 +24,10 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="437">
+              <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CKan.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/CKan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,57 +37,29 @@
         <entry file="file://$PROJECT_DIR$/Controller/Menu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TradingEconomics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/TradingEconomics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenSecrets.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OpenSecrets.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/OpenSecrets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="197">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#40#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Propublica.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Propublica.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controller/Propublica.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="News.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/News.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="486">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -233,6 +85,8 @@
       <find>members</find>
       <find>firs</find>
       <find>roles</find>
+      <find>get_</find>
+      <find>get_legislator_id</find>
     </findStrings>
     <replaceStrings>
       <replace>member</replace>
@@ -252,16 +106,16 @@
         <option value="$PROJECT_DIR$/Model/Results.py" />
         <option value="$PROJECT_DIR$/Controller/requestTest.py" />
         <option value="$PROJECT_DIR$/Controller/News.py" />
-        <option value="$PROJECT_DIR$/Controller/Menu.py" />
-        <option value="$PROJECT_DIR$/Controller/Propublica.py" />
         <option value="$PROJECT_DIR$/Controller/Trade.py" />
-        <option value="$PROJECT_DIR$/Controller/OpenSecrets.py" />
         <option value="$PROJECT_DIR$/Controller/CKan.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Controller/BrightPlanet.py" />
         <option value="$PROJECT_DIR$/Controller/DataGov.py" />
         <option value="$PROJECT_DIR$/Controller/TradingEconomics.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Controller/Menu.py" />
+        <option value="$PROJECT_DIR$/Controller/Propublica.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Controller/OpenSecrets.py" />
       </list>
     </option>
   </component>
@@ -274,7 +128,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1213" />
+    <option name="width" value="1091" />
     <option name="height" value="768" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -413,16 +267,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1213" height="768" extended-state="0" />
+    <frame x="65" y="24" width="1091" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808024" sideWeight="0.50288063" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43982807" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43957704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808024" sideWeight="0.49711934" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19043693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30705774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -499,7 +353,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,7 +364,7 @@
         <state relative-caret-position="108">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -527,7 +383,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -536,7 +394,7 @@
         <state relative-caret-position="108">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -555,7 +413,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1548">
           <caret line="88" column="24" lean-forward="true" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -564,7 +424,7 @@
         <state relative-caret-position="72">
           <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,7 +443,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -599,7 +461,7 @@
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -641,7 +503,7 @@
         <state relative-caret-position="108">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -678,50 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/Propublica.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/CKan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/Menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/TradingEconomics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -730,11 +548,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/OpenSecrets.py">
+    <entry file="file://$PROJECT_DIR$/Controller/TradingEconomics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/CKan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/Menu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/OpenSecrets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/Propublica.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

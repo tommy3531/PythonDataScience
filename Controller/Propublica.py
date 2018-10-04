@@ -23,11 +23,13 @@ def show_senator(senator_data):
     print(senator_data)
 
 
-def show_senator_full_name_with_legislator_id(senator_data):
-
+def show_senator_full_name_with_crp_id(senator_data):
     for item in senator_data:
         print(item['first_name'] + " " + item['last_name'])
-        print(item['id'] + "\n")
+        if item['crp_id'] == None:
+            print("NO crp_id" + "\n")
+        else:
+            print(item['crp_id'] + '\n')
 
 
 def get_senator_full_name(senator_data):
