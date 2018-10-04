@@ -3,6 +3,7 @@
     I make a request to each API create a model from the json response and then create a python object from the parsed Json Response.  I will use pandas and numpy to
     perform calculations on the data and persent the data to the use. </p>
 
+
 # Third Party Libraries
 1. NewsAPI - get news articles
 2. JsonTraverseParser - parse json easier
@@ -10,6 +11,10 @@
 3. scrapy - creating spiders
 4. pyfolio - stock risk analysis
 5. requests - REST Calls
+6. gensim - NLP
+7. scapy - NLP
+8. NLTK- NPL toolkit
+
 
 # Documentation
 1. Data.gov - https://www.data.gov/developers/apis
@@ -20,6 +25,8 @@
 6. Opensecrets - https://www.opensecrets.org/api/admin/index.php?function=user_api_list
 7. Scrapy - https://docs.scrapy.org/en/latest/
 8. pyfolio - https://quantopian.github.io/pyfolio/
+9. gensim - https://radimrehurek.com/gensim/tutorial.html
+10. scapy - https://spacy.io/api/doc
 
 
 # Helpful Links
