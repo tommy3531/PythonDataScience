@@ -13,7 +13,7 @@
 5. requests - REST Calls
 6. gensim - NLP
 7. scapy - NLP
-8. NLTK- NPL toolkit
+8. NLTK- NPL toolkitnQ1`    L1                                                                      
 
 
 # Documentation
