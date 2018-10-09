@@ -46,3 +46,12 @@ def get_candidate_and_sector(crp_id):
     data = requests.get(url)
     json_data = data.json()
     pprint.pprint(json_data)
+
+
+def get_open_secrets_legislators(state):
+    print("Open secret get legislators: " + "\n")
+    api_key = '95616cf411e10bdf902c3681fe59fda5'
+    url = 'http://www.opensecrets.org/api/?method=getLegislators&id=' + state + '&output=json&apikey=' + api_key
+    data = requests.get(url)
+    json_data = data.json()
+    pprint.pprint(json_data)
