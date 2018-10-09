@@ -37,3 +37,12 @@ def get_organizations(company):
     data = requests.get(url)
     json_data = data.json()
     pprint.pprint(json_data)
+
+
+def get_candidate_and_sector(crp_id):
+    print("Open secret get candiate and sector: " + "\n")
+    api_key = '95616cf411e10bdf902c3681fe59fda5'
+    url = 'http://www.opensecrets.org/api/?method=candSector&cid=' + crp_id + '&cycle=2012&output=json&apikey=' + api_key
+    data = requests.get(url)
+    json_data = data.json()
+    pprint.pprint(json_data)

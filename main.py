@@ -8,7 +8,7 @@ from Controller.News import get_news_articles, enviro_variable, show_new_article
 
 from Controller.Menu import get_crp_id
 from Controller.CKan import get_package_list, get_group_list, query_packages_and_resources, get_tags
-from Controller.OpenSecrets import get_top_contributors_for_rep, get_rep_summary, get_legislators_from_state, get_organizations
+from Controller.OpenSecrets import get_top_contributors_for_rep, get_rep_summary, get_legislators_from_state, get_organizations, get_candidate_and_sector
 # CKAN Controller
 # get_package_list()
 # get_group_list()
@@ -17,11 +17,11 @@ from Controller.OpenSecrets import get_top_contributors_for_rep, get_rep_summary
 
 # PROPUBLICA Controller
 # # Get all members of the senate
-# senate_data = all_senators()
-# show_senator_full_name_with_crp_id(senate_data)
+senate_data = all_senators()
+show_senator_full_name_with_crp_id(senate_data)
 #
 # # Get open secret ID
-# crp_id = get_crp_id()
+crp_id = get_crp_id()
 
 
 # # Member Basic information
@@ -43,7 +43,8 @@ from Controller.OpenSecrets import get_top_contributors_for_rep, get_rep_summary
 # get_top_contributors_for_rep(crp_id)
 # get_rep_summary(crp_id)
 # get_legislators_from_state("MO")
-get_organizations("Goldman")
+# get_organizations("Goldman")
+get_candidate_and_sector(crp_id)
 
 # NEWS Controller
 # articles = get_news_articles('Primary Health and Retirement Security Subcommittee')
