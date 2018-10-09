@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DataScience$requestTest.coverage" NAME="main Coverage Results" MODIFIED="1538183205099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataScience$main.coverage" NAME="main Coverage Results" MODIFIED="1538937257495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataScience$main.coverage" NAME="main Coverage Results" MODIFIED="1539115782493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataScience$test.coverage" NAME="requestTest Coverage Results" MODIFIED="1536891819429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Controller" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -27,13 +27,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="286" />
-          <entry key="py" value="497" />
+          <entry key="py" value="719" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="286" />
-          <entry key="Python" value="497" />
+          <entry key="Python" value="719" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,14 +50,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="44" column="32" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="32" />
+            <state relative-caret-position="216">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1538936795497" expanded="true" signature="1446:1482" ph="..." />
+                <marker date="1539115743163" expanded="true" signature="1465:1501" ph="..." />
               </folding>
             </state>
           </provider>
@@ -72,14 +72,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/OpenSecrets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="334">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
               <folding>
                 <element signature="e#40#55#0" expanded="true" />
-                <marker date="1538937123400" expanded="true" signature="784:995" ph="..." />
+                <marker date="1539115743235" expanded="true" signature="783:1006" ph="..." />
+                <marker date="1539115743235" expanded="true" signature="1125:1130" ph="..." />
               </folding>
             </state>
           </provider>
@@ -169,8 +170,8 @@
         <option value="$PROJECT_DIR$/Controller/News.py" />
         <option value="$PROJECT_DIR$/NewsScraper/NewsScraper/spiders/quotes_spider.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Controller/OpenSecrets.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -472,24 +473,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/Controller/OpenSecrets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="32" />
+        <state relative-caret-position="334">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1538936795497" expanded="true" signature="1446:1482" ph="..." />
+            <element signature="e#40#55#0" expanded="true" />
+            <marker date="1539115743235" expanded="true" signature="783:1006" ph="..." />
+            <marker date="1539115743235" expanded="true" signature="1125:1130" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/OpenSecrets.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           <folding>
-            <element signature="e#40#55#0" expanded="true" />
-            <marker date="1538937123400" expanded="true" signature="784:995" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1539115743163" expanded="true" signature="1465:1501" ph="..." />
           </folding>
         </state>
       </provider>

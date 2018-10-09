@@ -27,4 +27,13 @@ def get_legislators_from_state(state):
     url = 'http://www.opensecrets.org/api/?method=getLegislators&id=' + state + '&output=json&apikey=' + api_key
     data = requests.get(url)
     json_data = data.json()
-    print(json_data)
+    pprint.pprint(json_data)
+
+
+def get_organizations(company):
+    print("Open Secret get Organiztions: " + "\n")
+    api_key = '95616cf411e10bdf902c3681fe59fda5'
+    url = 'https://www.opensecrets.org/api/?method=getOrgs&org=' + company + '&output=json&apikey=' + api_key
+    data = requests.get(url)
+    json_data = data.json()
+    pprint.pprint(json_data)
