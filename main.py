@@ -70,4 +70,4 @@ from Controller.WorldBank import get_world_bank_sources, get_world_bank_country_
 # get_world_bank_topics()
 # get_world_bank_data_catalog()
 # get_world_bank_metatypes()
-search_world_bank("poverty")
+# search_world_bank("poverty")
