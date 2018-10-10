@@ -55,3 +55,12 @@ def get_open_secrets_legislators(state):
     data = requests.get(url)
     json_data = data.json()
     pprint.pprint(json_data)
+
+
+def get_independent_expedure():
+    print("Open secret get independent expendiature: " + "\n")
+    api_key = '95616cf411e10bdf902c3681fe59fda5'
+    url = 'http://www.opensecrets.org/api/?method=independentExpend&output=json&apikey=' + api_key
+    data = requests.get(url)
+    json_data = data.json()
+    pprint.pprint(json_data)

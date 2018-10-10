@@ -7,20 +7,17 @@
 # Third Party Libraries
 1. NewsAPI - get news articles
 2. JsonTraverseParser - parse json easier
-3. tradingeconomics - stock prices
 3. scrapy - creating spiders
 4. pyfolio - stock risk analysis
 5. requests - REST Calls
 6. gensim - NLP
 7. scapy - NLP
-8. NLTK- NPL toolkitnQ1`    L1                                                                      
+8. NLTK- NPL toolkit                                                                     
 
 
 # Documentation
 1. Data.gov - https://www.data.gov/developers/apis
-2. BrightPlanet - https://brightplanet.com/data-feed-api-guide/
 3. NewsAPI - https://newsapi.org/docs
-4. Trading Economics - http://docs.tradingeconomics.com/#snapshots26
 5. UnData - http://data.un.org/ws/
 6. Opensecrets - https://www.opensecrets.org/api/admin/index.php?function=user_api_list
 7. Scrapy - https://docs.scrapy.org/en/latest/
@@ -31,3 +28,8 @@
 
 # Helpful Links
 1. Open Data - https://project-open-data.cio.gov/
+
+
+# Pyenv
+<p> source ~/.bashrc set pycharm to use 3.5.2, checking setting in pycharm and make sure it is using pyenv version.
+check local version of python, which python.  </p>
