@@ -3,82 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3234ccae-564b-484b-b5df-42f4a52d0cf5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/NewsScraper/NewsScraper/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NewsScraper/NewsScraper/items.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NewsScraper/NewsScraper/middlewares.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NewsScraper/NewsScraper/pipelines.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NewsScraper/NewsScraper/settings.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NewsScraper/NewsScraper/spiders/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NewsScraper/NewsScraper/spiders/quotes_spider.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/NewsScraper/scrapy.cfg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/INSTALLER" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/METADATA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/RECORD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/WHEEL" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/entry_points.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip-18.0.dist-info/top_level.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/basecommand.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/baseparser.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/build_env.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/build_env.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/cache.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/cache.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/cmdoptions.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/check.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/check.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/completion.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/completion.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/configuration.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/configuration.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/download.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/download.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/freeze.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/freeze.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/hash.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/hash.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/help.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/help.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/install.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/install.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/list.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/list.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/search.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/search.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/show.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/show.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/uninstall.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/uninstall.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/wheel.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/commands/wheel.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/compat.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/configuration.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/configuration.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/exceptions.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/exceptions.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/index.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/index.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/locations.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/locations.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/models/index.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/models/index.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/operations/freeze.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/operations/freeze.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/operations/prepare.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/operations/prepare.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/pep425tags.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/pep425tags.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/req/req_file.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/req/req_file.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/req/req_install.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/req/req_install.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/req/req_set.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/req/req_set.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/req/req_uninstall.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/req/req_uninstall.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/resolve.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/resolve.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/status_codes.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/appdirs.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/appdirs.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/filesystem.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/filesystem.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/logging.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/logging.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/misc.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/misc.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/outdated.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/outdated.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/packaging.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/packaging.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/ui.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/utils/ui.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/bazaar.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/bazaar.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/git.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/git.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/mercurial.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/mercurial.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/subversion.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/vcs/subversion.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/wheel.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_internal/wheel.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/certifi/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/certifi/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/certifi/__main__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/certifi/__main__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/certifi/cacert.pem" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/certifi/cacert.pem" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/packaging/__about__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/packaging/requirements.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/packaging/requirements.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/packaging/specifiers.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/pkg_resources/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/pkg_resources/py31compat.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/pkg_resources/py31compat.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/pyparsing.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/pytoml/parser.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/pytoml/parser.py" />
-      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/requests/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/pip/_vendor/requests/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change beforePath="$PROJECT_DIR$/scrapy_spider/scrapy_spider/spiders/quotes_spider.py" afterPath="$PROJECT_DIR$/scrapy_spider/scrapy_spider/spiders/quotes_spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DataScience$main.coverage" NAME="main Coverage Results" MODIFIED="1539209969590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataScience$main.coverage" NAME="main Coverage Results" MODIFIED="1539229753360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataScience$requestTest.coverage" NAME="main Coverage Results" MODIFIED="1538183205099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataScience$test.coverage" NAME="requestTest Coverage Results" MODIFIED="1536891819429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Controller" />
   </component>
@@ -131,8 +56,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="324">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -143,9 +68,11 @@
       <file leaf-file-name="quotes_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrapy_spider/scrapy_spider/spiders/quotes_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="169">
+              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -655,7 +582,7 @@
         <state relative-caret-position="-900">
           <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,8 +597,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="50" column="19" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="324">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -680,9 +607,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_spider/scrapy_spider/spiders/quotes_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="169">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
