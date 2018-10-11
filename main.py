@@ -14,7 +14,7 @@ from Controller.WorldBank import get_world_bank_sources, get_world_bank_country_
     get_world_bank_income_level_code, get_world_bank_indictors, search_world_bank_by_indicator, get_world_bank_topics, \
     get_world_bank_data_catalog, get_world_bank_metatypes, search_world_bank
 
-
+from Controller.WebSiteInformation import get_website_information
 # CKAN Controller
 # get_package_list()
 # get_group_list()
@@ -71,3 +71,6 @@ from Controller.WorldBank import get_world_bank_sources, get_world_bank_country_
 # get_world_bank_data_catalog()
 # get_world_bank_metatypes()
 # search_world_bank("poverty")
+
+# WebsiteInformation Controller
+get_website_information()

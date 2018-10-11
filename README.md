@@ -12,7 +12,8 @@
 5. requests - REST Calls
 6. gensim - NLP
 7. scapy - NLP
-8. NLTK- NPL toolkit                                                                     
+8. NLTK- NPL toolkit
+9. newspaper - extract articles and information from website
 
 
 # Documentation
@@ -24,6 +25,7 @@
 8. pyfolio - https://quantopian.github.io/pyfolio/
 9. gensim - https://radimrehurek.com/gensim/tutorial.html
 10. scapy - https://spacy.io/api/doc
+11. newspaper - https://github.com/codelucas/newspaper
 
 
 # Helpful Links
