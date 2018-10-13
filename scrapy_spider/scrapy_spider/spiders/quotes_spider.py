@@ -12,8 +12,5 @@ class QuotesSpiderSpider(SitemapSpider):
     sitemap_urls = ['https://worldview.stratfor.com/sitemap.xml']
     sitemap_rules = [('china', 'parse')]
 
-    # The URLs to start with
-    start_urls = ["https://va.gov/"]
-
     def parse(self, response):
         print(response.url)

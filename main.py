@@ -25,11 +25,11 @@ from Controller.WebSiteInformation import get_website_links
 
 # PROPUBLICA Controller
 # # Get all members of the senate
-# senate_data = all_senators()
-# show_senator_full_name_with_crp_id(senate_data)
+senate_data = all_senators()
+show_senator_full_name_with_crp_id(senate_data)
 #
 # # Get open secret ID
-# crp_id = get_crp_id()
+crp_id = get_crp_id()
 
 
 # # Member Basic information
@@ -48,7 +48,7 @@ from Controller.WebSiteInformation import get_website_links
 # member_subcommittees = get_member_sub_committees(member_roles)
 # show_member_sub_committees(member_subcommittees)
 
-# get_top_contributors_for_rep(crp_id)
+get_top_contributors_for_rep(crp_id)
 # get_rep_summary(crp_id)
 # get_legislators_from_state("MO")
 # get_organizations("Goldman")
@@ -73,4 +73,4 @@ from Controller.WebSiteInformation import get_website_links
 # search_world_bank("poverty")
 
 # WebsiteInformation Controller
-get_website_links()
+# get_website_links()

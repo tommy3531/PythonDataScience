@@ -2,18 +2,19 @@ import requests
 import json
 from jsontraverse.parser import JsonTraverseParser
 
+API_KEY = 'SpzjlPZlkMlPKKGCLQS1OqZtCN96lPl7sszOTKra'
+BASE_URL = 'https://api.propublica.org/congress/v1'
+HEADERS = {
+    'X-API-KEY': API_KEY
+}
+
 
 def all_senators():
-    ALL_SENATOR_URL = "https://api.propublica.org/congress/v1/115/senate/members.json"
+    ALL_SENATOR_URL = BASE_URL + "/115/senate/members.json"
 
-    headers = {
-        'X-API-KEY': 'SpzjlPZlkMlPKKGCLQS1OqZtCN96lPl7sszOTKra'
-    }
-
-    r = requests.get(url=ALL_SENATOR_URL, headers=headers)
+    r = requests.get(url=ALL_SENATOR_URL, headers=HEADERS)
     data = r.json()
     json_string = json.dumps(data)
-
     parser = JsonTraverseParser(json_string)
     member_data = parser.traverse("results.members")
     return member_data
@@ -26,7 +27,7 @@ def show_senator(senator_data):
 def show_senator_full_name_with_crp_id(senator_data):
     for item in senator_data:
         print(item['first_name'] + " " + item['last_name'])
-        if item['crp_id'] == None:
+        if item['crp_id'] is None:
             print("NO crp_id" + "\n")
         else:
             print(item['crp_id'] + '\n')
@@ -42,13 +43,9 @@ def get_senator_full_name(senator_data):
 
 
 def get_specific_member(member_id):
-    SPECIFIC_MEMBER_URL = "https://api.propublica.org/congress/v1/members/" + member_id + ".json"
+    SPECIFIC_MEMBER_URL = BASE_URL + "/v1/members/" + member_id + ".json"
 
-    headers = {
-        'X-API-KEY': 'SpzjlPZlkMlPKKGCLQS1OqZtCN96lPl7sszOTKra'
-    }
-
-    r = requests.get(url=SPECIFIC_MEMBER_URL, headers=headers)
+    r = requests.get(url=SPECIFIC_MEMBER_URL, headers=HEADERS)
     data = r.json()
     json_string = json.dumps(data)
     parser = JsonTraverseParser(json_string)

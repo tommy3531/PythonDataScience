@@ -9,7 +9,6 @@ from jsontraverse.parser import JsonTraverseParser
 import pprint
 
 
-
 def get_package_list():
     response = requests.get('http://demo.ckan.org/api/3/action/package_list')
     data = response.json()
