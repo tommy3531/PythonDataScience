@@ -13,8 +13,15 @@ from Controller.OpenSecrets import get_top_contributors_for_rep, get_rep_summary
 from Controller.WorldBank import get_world_bank_sources, get_world_bank_country_code, search_world_bank_by_country_code, \
     get_world_bank_income_level_code, get_world_bank_indictors, search_world_bank_by_indicator, get_world_bank_topics, \
     get_world_bank_data_catalog, get_world_bank_metatypes, search_world_bank
+from Controller.Twitter import get_rep_information
+
 
 from Controller.WebSiteInformation import get_website_links
+
+# Twitter
+data = get_rep_information()
+for item in data:
+    print(item)
 # CKAN Controller
 # get_package_list()
 # get_group_list()
@@ -25,11 +32,11 @@ from Controller.WebSiteInformation import get_website_links
 
 # PROPUBLICA Controller
 # # Get all members of the senate
-senate_data = all_senators()
-show_senator_full_name_with_crp_id(senate_data)
+# senate_data = all_senators()
+# show_senator_full_name_with_crp_id(senate_data)
 #
 # # Get open secret ID
-crp_id = get_crp_id()
+# crp_id = get_crp_id()
 
 
 # # Member Basic information
@@ -48,7 +55,7 @@ crp_id = get_crp_id()
 # member_subcommittees = get_member_sub_committees(member_roles)
 # show_member_sub_committees(member_subcommittees)
 
-get_top_contributors_for_rep(crp_id)
+# get_top_contributors_for_rep(crp_id)
 # get_rep_summary(crp_id)
 # get_legislators_from_state("MO")
 # get_organizations("Goldman")
