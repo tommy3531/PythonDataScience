@@ -38,6 +38,12 @@ def show_senator_full_name_with_facebook_id(senator_data):
     for item in senator_data:
         pprint.pprint(item)
 
+
+def show_senator_full_name_with_twitter_id(senator_data):
+    for item in senator_data:
+        pprint.pprint(item)
+
+
 def get_senator_full_name(senator_data):
     full_name = []
     for i in senator_data:
@@ -48,7 +54,7 @@ def get_senator_full_name(senator_data):
 
 
 def get_specific_member(member_id):
-    SPECIFIC_MEMBER_URL = BASE_URL + "/v1/members/" + member_id + ".json"
+    SPECIFIC_MEMBER_URL = BASE_URL + "/members/" + member_id + ".json"
 
     r = requests.get(url=SPECIFIC_MEMBER_URL, headers=HEADERS)
     data = r.json()

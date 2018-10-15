@@ -35,13 +35,12 @@ def get_twitter_client():
     return client
 
 
-def get_rep_information():
+def get_rep_information(d):
     client = get_twitter_client()
-    user = "RepCleaver"
-    data = Cursor(client.user_timeline, id=user).items(6)
-    return data
+    for page in Cursor(client.user_timeline, id=d).pages(5):
+        print(page)
 
-
+        
 # def get_rep_tweet():
 #     repTweetList = []
 #     parseJson = get_rep_information()

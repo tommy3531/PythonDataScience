@@ -1,8 +1,10 @@
 import sys
+import pprint
 
 from Controller.Propublica import all_senators, get_senator_full_name, get_specific_member, get_member_roles, \
     get_member_committees, get_member_sub_committees, show_member_details, show_member_roles, show_member_committees, \
-    show_member_sub_committees, show_senator, show_senator_full_name_with_crp_id, show_senator_full_name_with_facebook_id
+    show_member_sub_committees, show_senator, show_senator_full_name_with_crp_id, show_senator_full_name_with_facebook_id, \
+    show_senator_full_name_with_twitter_id
 
 from Controller.News import get_news_articles, enviro_variable, show_new_articles
 
@@ -38,7 +40,8 @@ from Controller.Reddit import reddit_test
 # PROPUBLICA Controller
 # # Get all members of the senate
 senate_data = all_senators()
-show_senator_full_name_with_facebook_id(senate_data)
+# show_senator_full_name_with_facebook_id(senate_data)
+show_senator_full_name_with_twitter_id(senate_data)
 # show_senator_full_name_with_crp_id(senate_data)
 #
 # # Get open secret ID
@@ -46,7 +49,11 @@ show_senator_full_name_with_facebook_id(senate_data)
 
 
 # # Member Basic information
-# results_data = get_specific_member(leg_id)
+# results_data = get_specific_member(crp_id)
+# twitter = results_data[0]['twitter_account']
+twitter = "SenWhitehouse"
+get_rep_information(twitter)
+
 # show_member_details(results_data)
 #
 # # Member roles
