@@ -21,24 +21,16 @@ def get_twitter_auth():
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
-
-    return auth
-
-
-def get_twitter_client():
-    """ Setup Twitter API Client.
-
-        Return: tweepy.API object
-    """
-    auth = get_twitter_auth()
     client = API(auth)
     return client
 
 
 def get_rep_information(senator_twitter_name):
-    client = get_twitter_client()
+    client = get_twitter_auth()
     page = client.user_timeline(senator_twitter_name)
-    print(page)
+    # Access the resultset
+    status = page[0]
+    print(status.favorited)
 
 
 # def get_rep_tweet():
