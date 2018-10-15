@@ -6,9 +6,10 @@ from Controller.Propublica import all_senators, get_senator_full_name, get_speci
 from Controller.Menu import get_crp_id
 from Controller.OpenSecrets import get_top_contributors_for_rep, get_rep_summary, get_legislators_from_state, get_organizations
 from Controller.Twitter import get_rep_information
-from Controller.CourtListener import court_listener_test
+from Controller.CourtListener import court_listener_aba_ratings, get_jurisdictions
 
-court_listener_test()
+# court_listener_aba_ratings()
+get_jurisdictions()
 
 ############################## Get information from propublica, twitter, opensecrets
 # PROPUBLICA Controller
