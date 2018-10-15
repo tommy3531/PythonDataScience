@@ -35,12 +35,12 @@ def get_twitter_client():
     return client
 
 
-def get_rep_information(d):
+def get_rep_information(senator_twitter_name):
     client = get_twitter_client()
-    for page in Cursor(client.user_timeline, id=d).pages(5):
-        print(page)
+    page = client.user_timeline(senator_twitter_name)
+    print(page)
 
-        
+
 # def get_rep_tweet():
 #     repTweetList = []
 #     parseJson = get_rep_information()
