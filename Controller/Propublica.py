@@ -1,5 +1,6 @@
 import requests
 import json
+import pprint
 from jsontraverse.parser import JsonTraverseParser
 
 API_KEY = 'SpzjlPZlkMlPKKGCLQS1OqZtCN96lPl7sszOTKra'
@@ -32,6 +33,10 @@ def show_senator_full_name_with_crp_id(senator_data):
         else:
             print(item['crp_id'] + '\n')
 
+
+def show_senator_full_name_with_facebook_id(senator_data):
+    for item in senator_data:
+        pprint.pprint(item)
 
 def get_senator_full_name(senator_data):
     full_name = []

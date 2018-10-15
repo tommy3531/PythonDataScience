@@ -14,18 +14,21 @@
 7. scapy - NLP
 8. NLTK- NPL toolkit
 9. newspaper - extract articles and information from website
-
+10. Civic Information - political data
+11. Political - political data
+12. Youtube - videos
 
 # Documentation
-1. Data.gov - https://www.data.gov/developers/apis
-3. NewsAPI - https://newsapi.org/docs
-5. UnData - http://data.un.org/ws/
-6. Opensecrets - https://www.opensecrets.org/api/admin/index.php?function=user_api_list
-7. Scrapy - https://docs.scrapy.org/en/latest/
-8. pyfolio - https://quantopian.github.io/pyfolio/
-9. gensim - https://radimrehurek.com/gensim/tutorial.html
-10. scapy - https://spacy.io/api/doc
-11. newspaper - https://github.com/codelucas/newspaper
+1. NewsAPI - https://newsapi.org/docs
+2. UnData - http://data.un.org/ws/
+3. Opensecrets - https://www.opensecrets.org/api/admin/index.php?function=user_api_list
+4. Scrapy - https://docs.scrapy.org/en/latest/
+5. pyfolio - https://quantopian.github.io/pyfolio/
+6. gensim - https://radimrehurek.com/gensim/tutorial.html
+7. scapy - https://spacy.io/api/doc
+8. newspaper - https://github.com/codelucas/newspaper
+9. Civic Information - https://developers.google.com/civic-information/docs/v2/
+10. Youtube - https://developers.google.com/youtube/v3/code_samples/python
 
 
 # Helpful Links

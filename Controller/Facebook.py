@@ -2,5 +2,6 @@ import facebook
 
 
 def facebook_test():
-    graph = facebook.GraphAPI(access_token="EAAJ8A1c8urcBAB1c4RPQfqtHD1AdqnGlKZAniN5uDfpKj4cM4jFYLLfivegQN3BnV2MDx70iCdB6k53HKZBwXjj3ZCAbXCdssQvXuCQuYOEMz6EMNWeFlGBrdwgniF8wvC2azo1Dsz601vuKx519K7O3PpMtVZAp6Xh67OvnZCC91dSa736TGYTETRhZBZBOhIZD", version="2.12")
-    print(graph)
+    fields = ["name"]
+    graph = facebook.GraphAPI(access_token="EAAJ8A1c8urcBADDFNlewXZAdFBCRtm68Hi7Eoyy3qXHUtUtUTclQ1rpU9NUTRGvPSuyZAnJZCrE1v4R2qKNH3vv41krFBDd48jVyTabyioYGSHpPkSrume70Bczi9TA8usJf3jDJkkjW1RNNoWq1NZCidkYlKrMZD", version="2.12")
+    print(graph.get_object(id='me', connection_name='friends'))
