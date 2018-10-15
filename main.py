@@ -14,14 +14,20 @@ from Controller.WorldBank import get_world_bank_sources, get_world_bank_country_
     get_world_bank_income_level_code, get_world_bank_indictors, search_world_bank_by_indicator, get_world_bank_topics, \
     get_world_bank_data_catalog, get_world_bank_metatypes, search_world_bank
 from Controller.Twitter import get_rep_information
-
-
+from Controller.Facebook import facebook_test
 from Controller.WebSiteInformation import get_website_links
+from Controller.Reddit import reddit_test
+
+# Reddit
+reddit_test()
+
+# Facebook
+# facebook_test()
 
 # Twitter
-data = get_rep_information()
-for item in data:
-    print(item)
+# data = get_rep_information()
+# for item in data:
+#     print(item)
 # CKAN Controller
 # get_package_list()
 # get_group_list()
