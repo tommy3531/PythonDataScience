@@ -33,6 +33,7 @@ def court_listener_aba_ratings():
 
 
 def get_jurisdictions():
+    # https://www.courtlistener.com/api/jurisdictions/
     COURTS_JURISDICTION_URL = BASE_URL_COURTS
 
     court_data = requests.get(url=COURTS_JURISDICTION_URL, headers=HEADERS)
