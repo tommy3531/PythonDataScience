@@ -50,4 +50,9 @@ def search_for_item():
     pprint.pprint(item_json)
 
 
-
+def search_collection_by_location():
+    searchTerm = "baseball"
+    location = "Ohio"
+    SEARCH_URL = BASE_URL_SEARCH + "/search" + "?q=" + searchTerm + "&fa=location:" + location + "&" + JSON
+    search_json = requests.get(SEARCH_URL).json()
+    pprint.pprint(search_json)

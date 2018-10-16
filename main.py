@@ -8,15 +8,15 @@ from Controller.OpenSecrets import get_top_contributors_for_rep, get_rep_summary
 from Controller.Twitter import get_rep_information
 # from Controller.CourtListener import court_listener_aba_ratings, get_jurisdictions
 from Controller.LibraryOfCongress import library_of_congress_search, library_of_congress_collections, \
-    search_collection, search_for_item
+    search_collection, search_for_item, search_collection_by_location
 
 
 #################################################### Library Of Congress ##############################
 # library_of_congress_search()
 # library_of_congress_collections()
 # search_collection()
-search_for_item()
-
+# search_for_item()
+search_collection_by_location()
 
 ################################################### END OF LIBRARY OF CONGRESS ########################
 ################################################### Court listener Controller
