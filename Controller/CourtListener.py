@@ -19,6 +19,7 @@ BASE_URL_PEOPLE = 'https://www.courtlistener.com/api/rest/v3/people/'
 BASE_URL_POLITICAL_AFFILIATIONS = 'https://www.courtlistener.com/api/rest/v3/political-affiliations/'
 BASE_URL_SEARCH = 'https://www.courtlistener.com/api/rest/v3/search/'
 BASE_URL_SOURCES = 'https://www.courtlistener.com/api/rest/v3/sources/'
+
 HEADERS = {
     'X-API-KEY': API_KEY
 }
