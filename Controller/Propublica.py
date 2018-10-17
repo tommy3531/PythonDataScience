@@ -87,9 +87,35 @@ def show_member_roles(member_roles):
         print("OCD-ID: " + role['ocd_id'])
 
 
+def get_members_twitter(member_results):
+    twitter_id = ""
+    for result in member_results:
+        twitter_id = result['twitter_account']
+    return twitter_id
+
+
+def get_members_legislator_id(member_results):
+    legislator_id = " "
+    for results in member_results:
+        legislator_id = results["member_id"]
+    return legislator_id
+
+
+def get_members_open_secrets_id(member_results):
+    open_secrets_id = ""
+    for result in member_results:
+        open_secrets_id = result["crp_id"]
+    return open_secrets_id
+
+
 def get_member_committees(member_roles):
     committee = member_roles[0]['committees']
     return committee
+
+
+def show_member_details(member_results):
+    for result in member_results:
+        pprint.pprint(result)
 
 
 def show_member_committees(member_committees):
