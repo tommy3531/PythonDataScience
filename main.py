@@ -13,6 +13,16 @@ from Controller.LibraryOfCongress import library_of_congress_search, library_of_
     search_newspaper
 
 
+#################################################### Twitter Controller ###############################\
+# Get Legislators Tweets
+
+senate_data = all_senators()
+show_senator_full_name_with_twitter_id(senate_data)
+crp_id = get_crp_id()
+results_data = get_specific_member(crp_id)
+twitter = results_data[0]['twitter_account']
+get_rep_information(twitter)
+
 #################################################### Library Of Congress ##############################
 # library_of_congress_search()
 # library_of_congress_collections()
@@ -22,9 +32,8 @@ from Controller.LibraryOfCongress import library_of_congress_search, library_of_
 # search_maps()
 # search_audio_recordings()
 # search_photo_print_drawings()
-search_manuscripts_mixed_material()
+# search_manuscripts_mixed_material()
 # search_newspaper()
-
 
 
 ################################################### END OF LIBRARY OF CONGRESS ########################

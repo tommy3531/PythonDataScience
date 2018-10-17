@@ -27,11 +27,15 @@ def get_twitter_auth():
 
 def get_rep_information(senator_twitter_name):
     client = get_twitter_auth()
-    page = client.user_timeline(senator_twitter_name)
-    # Access the resultset
-    status = page[0]
-    print(status.favorited)
 
+    # Go to senator timeline and get 150 tweets without retweets
+    new_tweets = client.user_timeline(senator_twitter_name, count=150, include_rts=False)
+
+    # new_tweets is a resultSet which allows attribute access via . notation
+    status = new_tweets[0]
+
+    # Get a list of the keys
+    print(status._json.keys())
 
 # def get_rep_tweet():
 #     repTweetList = []
