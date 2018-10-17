@@ -1,4 +1,4 @@
-# https://github.com/LibraryOfCongress/data-exploration/blob/master/LOC.gov%20JSON%20API.ipynb
+# https://libraryofcongress.github.io/data-exploration/requests.html
 import json
 import pprint
 import requests
@@ -56,3 +56,46 @@ def search_collection_by_location():
     SEARCH_URL = BASE_URL_SEARCH + "/search" + "?q=" + searchTerm + "&fa=location:" + location + "&" + JSON
     search_json = requests.get(SEARCH_URL).json()
     pprint.pprint(search_json)
+
+
+def search_maps():
+    MAPS_URL = BASE_URL_SEARCH + "maps/" + "?q=civil%20war&fo=json"
+    map_json = requests.get(MAPS_URL).json()
+    pprint.pprint(map_json)
+
+
+def search_audio_recordings():
+    AUDIO_URL = BASE_URL_SEARCH + "audio/" + "?q=rain&fo=json"
+    audio_json = requests.get(AUDIO_URL).json()
+    pprint.pprint(audio_json)
+
+
+def search_photo_print_drawings():
+    PRINT_URL = BASE_URL_SEARCH + "photos/" + "?q=trees&fo=json"
+    print_json = requests.get(PRINT_URL).json()
+    pprint.pprint(print_json)
+
+
+def search_manuscripts_mixed_material():
+    MANUSCRIPTS_URL = BASE_URL_SEARCH + "manuscripts/" + "?q=trees&fo=json"
+    print(MANUSCRIPTS_URL)
+    manuscript_json = requests.get(MANUSCRIPTS_URL).json()
+    pprint.pprint(manuscript_json)
+
+
+def search_newspaper():
+    NEWSPAPER_URL = BASE_URL_SEARCH + "newspapers/" + "?q=chicago&fo=json"
+    print(NEWSPAPER_URL)
+    newspaper_json = requests.get(NEWSPAPER_URL).json()
+    pprint.pprint(newspaper_json)
+
+
+def search_film_and_video():
+    pass
+
+def search_printed_music():
+    pass
+
+def search_archived_websites():
+    pass
+
