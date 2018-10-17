@@ -25,7 +25,7 @@ def get_twitter_auth():
     return client
 
 
-def get_rep_information(senator_twitter_name):
+def get_all_tweets_from_user_timeline(senator_twitter_name):
     client = get_twitter_auth()
 
     # Go to senator timeline and get 150 tweets without retweets
@@ -36,6 +36,42 @@ def get_rep_information(senator_twitter_name):
 
     # Get a list of the keys
     print(status._json.keys())
+
+
+def get_all_user_friends(senator_twitter_name):
+    client = get_twitter_auth()
+
+    # Get senator friends
+    friends = client.friends(senator_twitter_name, count=150, include_rts=False)
+
+    # friends is a resultSet which allows attribute access via . notation
+    status = friends[0]
+
+    print(status._json.keys())
+
+
+def get_all_user_followers(senator_twitter_name):
+    client = get_twitter_auth()
+
+    # Get senator followers
+    followers = client.friends(senator_twitter_name, count=150, include_rts=False)
+
+    # friends is a resultSet which allows attribute access via . notation
+    status = followers[0]
+
+    print(status._json.keys())
+
+
+def get_tends_from_specific_location(woeID):
+    client = get_twitter_auth()
+
+    # Get senator followers
+    followers = client.trends_place(woeID)
+
+    # friends is a resultSet which allows attribute access via . notation
+
+    for i in followers:
+        print(i)
 
 # def get_rep_tweet():
 #     repTweetList = []

@@ -41,7 +41,13 @@ def show_senator_full_name_with_facebook_id(senator_data):
 
 def show_senator_full_name_with_twitter_id(senator_data):
     for item in senator_data:
-        pprint.pprint(item)
+        print(item['id'] + "\n")
+        print(item['first_name'] + " " + item['last_name'])
+        if item['twitter_account'] is None:
+            print("No twitter ID" + "\n")
+
+        else:
+            print(item['twitter_account'])
 
 
 def get_senator_full_name(senator_data):
