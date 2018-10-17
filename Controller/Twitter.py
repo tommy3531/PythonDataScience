@@ -1,12 +1,5 @@
 from tweepy import API
 from tweepy import OAuthHandler
-from tweepy import Cursor
-
-# from Tweet_Model import Tweet, Tweet_UserMention, Tweet_Quoted, Tweet_Quoted_HashTag, Tweet_Quoted_UserMention
-
-from pprint import pprint
-
-import json
 
 
 def get_twitter_auth():
@@ -25,6 +18,7 @@ def get_twitter_auth():
     return client
 
 
+# TODO: Parse need attributes from response
 def get_all_tweets_from_user_timeline(senator_twitter_name):
     client = get_twitter_auth()
 
@@ -38,6 +32,7 @@ def get_all_tweets_from_user_timeline(senator_twitter_name):
     print(status._json.keys())
 
 
+# TODO: Parse need attributes from response
 def get_all_user_friends(senator_twitter_name):
     client = get_twitter_auth()
 
@@ -50,6 +45,7 @@ def get_all_user_friends(senator_twitter_name):
     print(status._json.keys())
 
 
+# TODO: Parse need attributes from response
 def get_all_user_followers(senator_twitter_name):
     client = get_twitter_auth()
 
@@ -62,6 +58,7 @@ def get_all_user_followers(senator_twitter_name):
     print(status._json.keys())
 
 
+# TODO: Parse need attributes from response
 def get_tends_from_specific_location(woeID):
     client = get_twitter_auth()
 
@@ -69,9 +66,17 @@ def get_tends_from_specific_location(woeID):
     followers = client.trends_place(woeID)
 
     # friends is a resultSet which allows attribute access via . notation
-
+    # print(followers)
     for i in followers:
         print(i)
+
+
+def friendship_id(senator_twitter_name):
+    client = get_twitter_auth()
+
+    friendship = client.friends_ids(senator_twitter_name)
+    print(friendship)
+
 
 # def get_rep_tweet():
 #     repTweetList = []
