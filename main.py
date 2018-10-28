@@ -3,7 +3,7 @@ import pprint
 
 from Controller.Propublica import all_senators, get_senator_full_name, get_specific_member, get_member_roles, \
     show_senator_full_name_with_twitter_id, get_members_twitter, get_members_open_secrets_id, get_members_legislator_id, \
-    show_member_details
+    show_member_details, get_member_information, show_senator
 from Controller.Menu import get_crp_id
 from Controller.OpenSecrets import get_top_contributors_for_rep, get_rep_summary, get_legislators_from_state, get_organizations
 from Controller.Twitter import get_all_tweets_from_user_timeline, get_all_user_friends, get_all_user_followers, get_tends_from_specific_location, \
@@ -19,6 +19,7 @@ from Controller.LibraryOfCongress import library_of_congress_search, library_of_
 # Get Legislators Tweets
 woeID = "523920"
 id = "W000817"
+id2 = "K000388"
 leg_id = "S001202"
 twitter_name = "SenatorStrange"
 # senate_data = all_senators()
@@ -33,8 +34,8 @@ twitter_name = "SenatorStrange"
 # print(legislator_id)
 # print(open_secrets_id)
 #
-get_all_tweets_from_user_timeline(twitter_name)
-get_all_user_followers(twitter_name)
+# get_all_tweets_from_user_timeline(twitter_name)
+# get_all_user_followers(twitter_name)
 # get_tends_from_specific_location(woeID)
 # friendship_id(twitter_name)
 # show_member_details(legislator_details)
@@ -59,12 +60,12 @@ get_all_user_followers(twitter_name)
 
 
 ################################################### PROPUBLICA Controller ############################
-# senate_data = all_senators()
+senate_data = all_senators()
 # show_senator_full_name_with_twitter_id(senate_data)
-# results_data = get_specific_member(crp_id)
-# twitter = results_data[0]['twitter_account']
-# crp_id = results_data[0]['crp_id']
-# get_rep_information(twitter)
+show_senator(senate_data)
+
+# results_data = get_specific_member(id2)
+# get_member_information(results_data)
 
 
 #################################################### END Propublica ###################################

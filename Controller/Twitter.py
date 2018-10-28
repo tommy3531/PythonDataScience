@@ -1,5 +1,7 @@
 from tweepy import API
 from tweepy import OAuthHandler
+import json
+import pprint
 
 
 def get_twitter_auth():
@@ -20,17 +22,18 @@ def get_twitter_auth():
 
 # TODO: Parse need attributes from response
 def get_all_tweets_from_user_timeline(senator_twitter_name):
+    tweet_text = []
     client = get_twitter_auth()
 
     # Go to senator timeline and get 150 tweets without retweets
     new_tweets = client.user_timeline(senator_twitter_name, count=150, include_rts=False)
 
     # new_tweets is a resultSet which allows attribute access via . notation
-    status = new_tweets[0]
-
-    # Get a list of the keys
-    print(status._json.keys())
-
+    for item in new_tweets:
+        # tweet_text.append(item.text)
+        print("This is the tweet favorite count: %s" % item.favorite_count)
+        print("This is the tweet retweet count: %s" % item.retweet_count)
+        print("This is the tweet text: %s" % item.text + "\n")
 
 # TODO: Parse need attributes from response
 def get_all_user_friends(senator_twitter_name):
